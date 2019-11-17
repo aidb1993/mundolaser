@@ -58,7 +58,7 @@
                             <div class="rounded">
                                 <img src="/images/560665-PKSSQS-833.png" class="card-img-top" alt="..." height="165px" width="166px">
                             </div>
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Diseñadores o Arquitectos</h5>
                             <p class="card-text">Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
@@ -67,7 +67,7 @@
                         <div class="rounded">
                             <img src="/images/340993-PA930T-374.png" class="card-img-top" alt="..." height="165px" width="166px">
                         </div>    
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Emprendedores y Manualistas</h5>
                             <p class="card-text">Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
@@ -76,7 +76,7 @@
                         <div class="rounded">
                             <img src="/images/Graphic.png" class="card-img-top" alt="..." height="165px" width="166px">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Negocios y Empresas</h5>
                             <p class="card-text">Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
@@ -85,7 +85,7 @@
                         <div class="rounded">
                             <img src="/images/90757.png" class="card-img-top" alt="..." height="165px" width="166px">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Creativos</h5>
                             <p class="card-text">Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
@@ -96,14 +96,14 @@
     <!-- Materiales Section -->
     <section class="section-materiales text-center" id="materiales">
         <div class="container">
-                <h1 class="mt-4">Materiales</h1>
+                <h1 class="mt-4" class="materiales" data-scroll>Materiales</h1>
                 <div class="row text-center text-lg-left">
                     <div class="col-lg-4 col-md-4 col-6 mb-5">
                         <div class="d-block h-100">
                             <img class="img-fluid img-thumbnail materiales-img" src="/images/Capa 2.png" alt="" title="madera">
                         </div>
                         <div class="materiales-text">
-                                <h3>Madera</h3>
+                                <h3 class="materiales" data-scroll>Madera</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-6 mb-5">
@@ -111,7 +111,7 @@
                             <img class="img-fluid img-thumbnail materiales-img" src="/images/Capa 3.png" alt="">
                         </div>
                         <div class="materiales-text" style="color: rgb(196, 44, 44);">
-                                <h3>Cartón</h3>
+                                <h3 class="materiales" data-scroll>Cartón</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-6 mb-5">
@@ -119,15 +119,15 @@
                             <img class="img-fluid img-thumbnail materiales-img" src="/images/Capa 4.png" alt="">
                         </div>
                         <div class="materiales-text">
-                                <h3>Papel</h3>
+                                <h3 class="materiales" data-scroll>Papel</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-6 mb-5">
                         <div class="d-block h-100">
                         <img class="img-fluid img-thumbnail materiales-img" src="/images/2472288.png" alt="">
                         </div>
-                        <div class="materiales-text" style="color: black;">
-                            <h3>Cartulina</h3>
+                        <div class="materiales-text cartulina" style="color: black;">
+                            <h3 class="materiales2" data-scroll>Cartulina</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-6 mb-5">
@@ -135,7 +135,7 @@
                             <img class="img-fluid img-thumbnail materiales-img" src="/images/Capa 5.png" alt="">
                         </div>
                         <div class="materiales-text">
-                                <h3>Fieltro</h3>
+                                <h3 class="materiales2" data-scroll>Fieltro</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-6 mb-5">
@@ -143,7 +143,7 @@
                             <img class="img-fluid img-thumbnail materiales-img" src="/images/Capa 6.png" alt="">
                         </div>
                         <div class="materiales-text" style="color: white;">
-                                <h3>Acrílico</h3>
+                                <h3 class="materiales2" data-scroll>Acrílico</h3>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
         </div>
     </section>
     <!-- Contacto -->
-    <section class="section-contacto">
+    <section class="section-contacto contacto" data-scroll>
         <div class="container text-center">
             <div class="contacto-text" >
                 <h1 >¡Contacta con nosotros!</h1>
@@ -201,5 +201,9 @@
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script>ScrollOut({
+        targets: ".materiales , .materiales2 , .contacto"
+    });</script>
 </body>
 </html>
