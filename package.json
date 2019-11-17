@@ -1,0 +1,11 @@
+{
+  "name": "MundoLaser",
+  "version": "1.0.0",
+  "description": "Mundo laser web development",
+  "main": "index.js",
+  "author": "Agustin Diaz",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

@@ -1,0 +1,181 @@
+html, body { margin: 0; padding: 0;}
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+
+/* NAVBAR */
+/* NavBar background */
+.bg-light {
+    background-color: #FFF !important;
+  }
+/* Navbar links */
+.navbar-light .navbar-nav .nav-link {
+    color: #312783;
+  }
+
+  /* Navbar Items */
+  .nav-item {
+    font-weight: 700;
+  }
+
+  /* Header Section */
+  .header-title{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color:#FFF;
+    }
+
+    .header-title h1 {
+      font-weight: 700;
+      font-size: 28,13px;
+    }
+
+    .header-title h3 {
+      font-weight: 400;
+    }
+
+    @media (max-width: 800px) {
+      .img-fluid {
+        max-width: 100%;
+        height: 300px;
+      }
+    }
+  
+/* Clientes Section */
+
+.section-clientes{
+  margin-top: 10%;
+}
+
+.rounded {
+  overflow:hidden;
+   height:165px;  
+   width:165px; 
+   border-radius:50% !important; 
+   margin: auto; 
+   margin-top: 20px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 21,82px;
+  color: #E30613;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16,62px;
+}
+
+@media (min-width: 576px) {
+  .section-clientes{
+    margin-top: -4%;
+  }
+}
+
+/* Materiales Section */
+
+.section-materiales {
+  background-color: #EEEEEE;
+  margin-top: 6%;
+}
+
+.section-materiales h1 {
+  color: #312783;
+  font-weight: 700;
+  font-size: 26,04px;
+}
+
+.materiales-img {
+  height: 260px;
+  width: 293px;
+  object-fit:cover;
+}
+
+.mb-5 {
+  margin-bottom: 5%;
+}
+
+.materiales-text {
+  margin-top: -20%; 
+  margin-left: -15%;
+  color: rgb(65, 65, 65);
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media only screen  and (min-width : 1224px) {
+    .materiales-text {
+      margin-top: -13%; 
+      margin-left: 4%;
+      color: rgb(65, 65, 65);
+      font-weight: 900;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+
+/* Section Somos */
+
+.section-somos h1 {
+  font-weight: 700;
+  font-size: 26,04px;
+  color: #312783;
+}
+
+/* Section Contacto */
+
+.section-contacto {
+  background-color: #E5E5E5;
+}
+
+.section-contacto h1 {
+  color: #312783;
+  font-weight: 700;
+  font-size: 26,04px;
+}
+
+/* Footer */
+footer {
+  height: 150px;
+  background-color: #312783;
+}
+
+.footer-redes {
+  margin-left: 80%; 
+  position: absolute; 
+  top: 65%;
+}
+.footer-contacto {
+  position: absolute;
+  top: 20%;
+}
+
+.footer-redes-insta {
+  margin-right: 50%; 
+  position: absolute;  
+  right:100% ;
+}
+
+@media only screen  and (min-width : 1224px) {
+      .footer-contacto {
+        position: absolute;
+        top: 40%;
+      }
+      
+      .footer-redes {
+        margin-left: 80%; 
+        position: absolute; 
+        top: 45%;
+      }
+      
+      .footer-redes-insta {
+        margin-right: 50%; 
+        position: absolute;  
+        right:100% ;
+      }
+  }
