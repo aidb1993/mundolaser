@@ -193,7 +193,7 @@ footer {
   }
 
   /* Animations */
-
+  @media only screen  and (min-width : 1224px){
   .materiales[data-scroll] {
     transition: all 1s;
   }
@@ -205,8 +205,6 @@ footer {
     opacity: 0;
     transform: translateX(-200px);
   }
-
-  
   .materiales2[data-scroll] {
     transition: all 1s;
   }
@@ -218,7 +216,7 @@ footer {
     opacity: 0;
     transform: translateX(200px);
   }
-
+  }
   .contacto[data-scroll] {
     transition: opacity 4s ;
   }
