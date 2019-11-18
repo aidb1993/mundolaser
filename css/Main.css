@@ -17,6 +17,11 @@ body {
   /* Navbar Items */
   .nav-item {
     font-weight: 700;
+    margin-right: 20px;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
   }
 
   /* Header Section */
@@ -30,7 +35,7 @@ body {
 
     .header-title h1 {
       font-weight: 700;
-      font-size: 28,13px;
+      font-size: 30px !important; 
       animation: 2s ease-out 0s 1 slideInFromLeft;
     }
 
@@ -148,12 +153,22 @@ body {
 
 .section-contacto {
   background-color: #E5E5E5;
-}
+  height: 300px;
+ }
 
 .section-contacto h1 {
   color: #312783;
   font-weight: 700;
   font-size: 26,04px;
+}
+@media only screen  and (min-width : 1224px) {
+  .section-contacto {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+  }
 }
 
 /* Footer */
@@ -181,7 +196,7 @@ footer {
 @media only screen  and (min-width : 1224px) {
       .footer-contacto {
         position: absolute;
-        top: 40%;
+        top: 20%;
       }
       
       .footer-redes {
@@ -194,6 +209,10 @@ footer {
         margin-right: 50%; 
         position: absolute;  
         right:100% ;
+      }
+
+      footer {
+        height: 120px;
       }
   }
 
