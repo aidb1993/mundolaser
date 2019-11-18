@@ -74,6 +74,11 @@ body {
 .card-text {
   font-weight: 400;
   font-size: 16,62px;
+  display: none;
+}
+
+.card:hover .card-text {
+  display: inline;
 }
 
 @media (min-width: 576px) {
